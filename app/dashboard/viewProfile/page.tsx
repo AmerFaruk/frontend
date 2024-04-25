@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import '@/app/ui/mainpage.css';
 import aka from '@/public/aka.jpg';
-import '@/app/ui/viewProfile.css';
+import '/viewPorfile.css'
+
 
 export default function page() {
     return (

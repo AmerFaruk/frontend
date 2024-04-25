@@ -1,11 +1,15 @@
 
 
-.signupPage {
-    padding: 5% 30%;
+.loginPage {
+    padding: 5% 12%;
+    display: inline-flex;
     color: #F0F0EA;
 }
 
-.signup-container {
+.left-container {
+    width: 40%;
+    margin-right: 5%;
+    height: 75%;
     background-color: #063831;
     padding: 2% 5%;
     border-radius: 30px;
@@ -14,11 +18,13 @@
 .submit-container{
     background-color: #1A282D;
     padding: 5% 5%;
+    margin-bottom: 5%;
     border-radius: 78px;
 
 }
 .inputBox {
     background-color: #1A282D;
+    color: #1A282D;
     font-size: 20px;
     color: #F0F0EA;
     border-style: none;
@@ -31,10 +37,7 @@ textarea:focus, input:focus{
 }
 
 
-.h2 {
-    font-size: 48px;
-    font-weight: bold;
-}
+
 
 .p-agreement {
     font-size: 12px;
@@ -49,10 +52,40 @@ textarea:focus, input:focus{
     border-radius: 78px;
     font-weight: bold;
 }
+.signupButton {
+    background-color: #D93A00;
+    font-size: 20px;
+    width: 60%;
+    color: #F0F0EA;
+    padding: 3% 15%;
+    text-decoration: none;
+    border-radius: 78px;
+    font-weight: bold;
+}
 .errorLabel {
     margin-left: 5%;
     margin-bottom: 5%;
     color: #D93A00;
     font-size: 12px;
     
+}
+.right-container {
+    width: 60%;
+    text-align: right;
+    padding-left: 10%;
+}
+
+.introduction {
+    margin-bottom: 15%;
+}
+
+
+
+.light-p {
+    font-size: 16px;
+    font-weight: 200;
+}
+.bold-h {
+    font-size: 48px;
+    font-weight: 600;
 }
