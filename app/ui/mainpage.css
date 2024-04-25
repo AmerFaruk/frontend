@@ -1,0 +1,68 @@
+
+
+.header{
+    height: 100px;
+    border-bottom: 4px solid white;
+    display: flex;
+}
+
+.gridStart {
+    width: 20%;
+    
+}
+.logoHeader {
+    font-size: 64px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+.gridCenter {
+    text-align: center;
+    width: 60%;
+    padding: 10% 5%;
+}
+.searchBox {
+    
+    background-color: #F0F0EA;
+}
+.gridEnd {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+.circle-logo {
+    fill: white;
+}
+.circle {
+    padding: 5% 5%;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: #727880;
+}
+
+
+.content {
+    display: flex;
+    padding: 0px;
+
+}
+.navigationPart {
+    padding: 0px;
+    width: 20%;
+    
+    
+}
+
+.contentPart {
+    padding: 2% 2%;
+    width: 60%;
+    border-left: 4px solid white;
+   
+}
+.categoryPart {
+    padding-right: 2%;
+    padding-top: 2%;
+    
+    width: 20%;    
+}

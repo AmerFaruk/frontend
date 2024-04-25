@@ -1,0 +1,58 @@
+
+
+.signupPage {
+    padding: 5% 30%;
+    color: #F0F0EA;
+}
+
+.signup-container {
+    background-color: #063831;
+    padding: 2% 5%;
+    border-radius: 30px;
+
+}
+.submit-container{
+    background-color: #1A282D;
+    padding: 5% 5%;
+    border-radius: 78px;
+
+}
+.inputBox {
+    background-color: #1A282D;
+    font-size: 20px;
+    color: #F0F0EA;
+    border-style: none;
+}
+input {
+    width: 100%;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.p-agreement {
+    font-size: 12px;
+    margin-bottom: 7%;
+}
+.loginButton {
+    background-color: #D93A00;
+    font-size: 20px;
+    color: #F0F0EA;
+    padding: 3% 30%;
+    margin-top: 30%;
+    border-radius: 78px;
+    font-weight: bold;
+}
+.errorLabel {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: #D93A00;
+    font-size: 12px;
+    
+}
